@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEC2585A1A05466700B3B87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258591A05466700B3B87E /* main.m */; };
+		DEC2585D1A05466700B3B87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2585C1A05466700B3B87E /* AppDelegate.m */; };
+		DEC258601A05466700B3B87E /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2585F1A05466700B3B87E /* SurveyViewController.m */; };
+		DEC258631A05466700B3B87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC258611A05466700B3B87E /* Main.storyboard */; };
+		DEC258651A05466700B3B87E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC258641A05466700B3B87E /* Images.xcassets */; };
+		DEC258681A05466700B3B87E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC258661A05466700B3B87E /* LaunchScreen.xib */; };
+		DEC258741A05466800B3B87E /* Reaching_Grandmaster_FlashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258731A05466800B3B87E /* Reaching_Grandmaster_FlashTests.m */; };
+		DEC258821A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258811A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.m */; };
+		DEC258851A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258841A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		DEC258881A054F3B00B3B87E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258861A054F3B00B3B87E /* Bolts.framework */; };
+		DEC258891A054F3B00B3B87E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258871A054F3B00B3B87E /* Parse.framework */; };
+		DEC2588B1A054FD200B3B87E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2588A1A054FD200B3B87E /* AudioToolbox.framework */; };
+		DEC2588D1A054FDA00B3B87E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2588C1A054FDA00B3B87E /* CFNetwork.framework */; };
+		DEC2588F1A054FE500B3B87E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2588E1A054FE500B3B87E /* CoreGraphics.framework */; };
+		DEC258911A054FEC00B3B87E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258901A054FEC00B3B87E /* CoreLocation.framework */; };
+		DEC258931A054FF800B3B87E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258921A054FF800B3B87E /* libz.dylib */; };
+		DEC258951A05500000B3B87E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258941A05500000B3B87E /* MobileCoreServices.framework */; };
+		DEC258971A05500700B3B87E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258961A05500700B3B87E /* QuartzCore.framework */; };
+		DEC258991A05500E00B3B87E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC258981A05500E00B3B87E /* Security.framework */; };
+		DEC2589B1A05501500B3B87E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2589A1A05501500B3B87E /* StoreKit.framework */; };
+		DEC2589D1A05501E00B3B87E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2589C1A05501E00B3B87E /* SystemConfiguration.framework */; };
+		DEC258A21A0551E800B3B87E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258A11A0551E800B3B87E /* HomeViewController.m */; };
+		DEC258A51A0552C800B3B87E /* AchievementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC258A41A0552C800B3B87E /* AchievementsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC2586E1A05466800B3B87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC2584C1A05466700B3B87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC258531A05466700B3B87E;
+			remoteInfo = "Reaching Grandmaster Flash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEC258541A05466700B3B87E /* Reaching Grandmaster Flash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reaching Grandmaster Flash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC258581A05466700B3B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC258591A05466700B3B87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEC2585B1A05466700B3B87E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEC2585C1A05466700B3B87E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEC2585E1A05466700B3B87E /* SurveyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		DEC2585F1A05466700B3B87E /* SurveyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		DEC258621A05466700B3B87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC258641A05466700B3B87E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEC258671A05466700B3B87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEC2586D1A05466800B3B87E /* Reaching Grandmaster FlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reaching Grandmaster FlashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC258721A05466800B3B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC258731A05466800B3B87E /* Reaching_Grandmaster_FlashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reaching_Grandmaster_FlashTests.m; sourceTree = "<group>"; };
+		DEC2587F1A054CCF00B3B87E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DEC258801A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		DEC258811A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		DEC258831A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		DEC258841A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		DEC258861A054F3B00B3B87E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Reaching Grandmaster Flash/Bolts.framework"; sourceTree = "<group>"; };
+		DEC258871A054F3B00B3B87E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Reaching Grandmaster Flash/Parse.framework"; sourceTree = "<group>"; };
+		DEC2588A1A054FD200B3B87E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DEC2588C1A054FDA00B3B87E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DEC2588E1A054FE500B3B87E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEC258901A054FEC00B3B87E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEC258921A054FF800B3B87E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DEC258941A05500000B3B87E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DEC258961A05500700B3B87E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DEC258981A05500E00B3B87E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DEC2589A1A05501500B3B87E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DEC2589C1A05501E00B3B87E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DEC258A01A0551E800B3B87E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DEC258A11A0551E800B3B87E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DEC258A31A0552C800B3B87E /* AchievementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementsViewController.h; sourceTree = "<group>"; };
+		DEC258A41A0552C800B3B87E /* AchievementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC258511A05466700B3B87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC2589D1A05501E00B3B87E /* SystemConfiguration.framework in Frameworks */,
+				DEC2589B1A05501500B3B87E /* StoreKit.framework in Frameworks */,
+				DEC258991A05500E00B3B87E /* Security.framework in Frameworks */,
+				DEC258971A05500700B3B87E /* QuartzCore.framework in Frameworks */,
+				DEC258951A05500000B3B87E /* MobileCoreServices.framework in Frameworks */,
+				DEC258931A054FF800B3B87E /* libz.dylib in Frameworks */,
+				DEC258911A054FEC00B3B87E /* CoreLocation.framework in Frameworks */,
+				DEC2588F1A054FE500B3B87E /* CoreGraphics.framework in Frameworks */,
+				DEC2588D1A054FDA00B3B87E /* CFNetwork.framework in Frameworks */,
+				DEC2588B1A054FD200B3B87E /* AudioToolbox.framework in Frameworks */,
+				DEC258891A054F3B00B3B87E /* Parse.framework in Frameworks */,
+				DEC258881A054F3B00B3B87E /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2586A1A05466800B3B87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC2584B1A05466700B3B87E = {
+			isa = PBXGroup;
+			children = (
+				DEC2589E1A0550CE00B3B87E /* Frameworks */,
+				DEC258921A054FF800B3B87E /* libz.dylib */,
+				DEC2587F1A054CCF00B3B87E /* Podfile */,
+				DEC258561A05466700B3B87E /* Reaching Grandmaster Flash */,
+				DEC258701A05466800B3B87E /* Reaching Grandmaster FlashTests */,
+				DEC258551A05466700B3B87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC258551A05466700B3B87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258541A05466700B3B87E /* Reaching Grandmaster Flash.app */,
+				DEC2586D1A05466800B3B87E /* Reaching Grandmaster FlashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC258561A05466700B3B87E /* Reaching Grandmaster Flash */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2585B1A05466700B3B87E /* AppDelegate.h */,
+				DEC2585C1A05466700B3B87E /* AppDelegate.m */,
+				DEC2585E1A05466700B3B87E /* SurveyViewController.h */,
+				DEC258A01A0551E800B3B87E /* HomeViewController.h */,
+				DEC258A11A0551E800B3B87E /* HomeViewController.m */,
+				DEC2585F1A05466700B3B87E /* SurveyViewController.m */,
+				DEC2589F1A0550ED00B3B87E /* TPKeyboardAvoiding */,
+				DEC258611A05466700B3B87E /* Main.storyboard */,
+				DEC258A31A0552C800B3B87E /* AchievementsViewController.h */,
+				DEC258A41A0552C800B3B87E /* AchievementsViewController.m */,
+				DEC258641A05466700B3B87E /* Images.xcassets */,
+				DEC258661A05466700B3B87E /* LaunchScreen.xib */,
+				DEC258571A05466700B3B87E /* Supporting Files */,
+			);
+			path = "Reaching Grandmaster Flash";
+			sourceTree = "<group>";
+		};
+		DEC258571A05466700B3B87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258581A05466700B3B87E /* Info.plist */,
+				DEC258591A05466700B3B87E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEC258701A05466800B3B87E /* Reaching Grandmaster FlashTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258731A05466800B3B87E /* Reaching_Grandmaster_FlashTests.m */,
+				DEC258711A05466800B3B87E /* Supporting Files */,
+			);
+			path = "Reaching Grandmaster FlashTests";
+			sourceTree = "<group>";
+		};
+		DEC258711A05466800B3B87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258721A05466800B3B87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEC2589E1A0550CE00B3B87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258861A054F3B00B3B87E /* Bolts.framework */,
+				DEC258871A054F3B00B3B87E /* Parse.framework */,
+				DEC258901A054FEC00B3B87E /* CoreLocation.framework */,
+				DEC2588E1A054FE500B3B87E /* CoreGraphics.framework */,
+				DEC2588C1A054FDA00B3B87E /* CFNetwork.framework */,
+				DEC2588A1A054FD200B3B87E /* AudioToolbox.framework */,
+				DEC2589C1A05501E00B3B87E /* SystemConfiguration.framework */,
+				DEC2589A1A05501500B3B87E /* StoreKit.framework */,
+				DEC258981A05500E00B3B87E /* Security.framework */,
+				DEC258961A05500700B3B87E /* QuartzCore.framework */,
+				DEC258941A05500000B3B87E /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEC2589F1A0550ED00B3B87E /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				DEC258801A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.h */,
+				DEC258811A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.m */,
+				DEC258831A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				DEC258841A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC258531A05466700B3B87E /* Reaching Grandmaster Flash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC258771A05466800B3B87E /* Build configuration list for PBXNativeTarget "Reaching Grandmaster Flash" */;
+			buildPhases = (
+				DEC258501A05466700B3B87E /* Sources */,
+				DEC258511A05466700B3B87E /* Frameworks */,
+				DEC258521A05466700B3B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reaching Grandmaster Flash";
+			productName = "Reaching Grandmaster Flash";
+			productReference = DEC258541A05466700B3B87E /* Reaching Grandmaster Flash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC2586C1A05466800B3B87E /* Reaching Grandmaster FlashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC2587A1A05466800B3B87E /* Build configuration list for PBXNativeTarget "Reaching Grandmaster FlashTests" */;
+			buildPhases = (
+				DEC258691A05466800B3B87E /* Sources */,
+				DEC2586A1A05466800B3B87E /* Frameworks */,
+				DEC2586B1A05466800B3B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC2586F1A05466800B3B87E /* PBXTargetDependency */,
+			);
+			name = "Reaching Grandmaster FlashTests";
+			productName = "Reaching Grandmaster FlashTests";
+			productReference = DEC2586D1A05466800B3B87E /* Reaching Grandmaster FlashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC2584C1A05466700B3B87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Noah Teshu";
+				TargetAttributes = {
+					DEC258531A05466700B3B87E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DEC2586C1A05466800B3B87E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DEC258531A05466700B3B87E;
+					};
+				};
+			};
+			buildConfigurationList = DEC2584F1A05466700B3B87E /* Build configuration list for PBXProject "Reaching Grandmaster Flash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC2584B1A05466700B3B87E;
+			productRefGroup = DEC258551A05466700B3B87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC258531A05466700B3B87E /* Reaching Grandmaster Flash */,
+				DEC2586C1A05466800B3B87E /* Reaching Grandmaster FlashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC258521A05466700B3B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC258631A05466700B3B87E /* Main.storyboard in Resources */,
+				DEC258681A05466700B3B87E /* LaunchScreen.xib in Resources */,
+				DEC258651A05466700B3B87E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC2586B1A05466800B3B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC258501A05466700B3B87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC258601A05466700B3B87E /* SurveyViewController.m in Sources */,
+				DEC258821A054D8C00B3B87E /* TPKeyboardAvoidingScrollView.m in Sources */,
+				DEC2585D1A05466700B3B87E /* AppDelegate.m in Sources */,
+				DEC2585A1A05466700B3B87E /* main.m in Sources */,
+				DEC258851A054E8F00B3B87E /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				DEC258A21A0551E800B3B87E /* HomeViewController.m in Sources */,
+				DEC258A51A0552C800B3B87E /* AchievementsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC258691A05466800B3B87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC258741A05466800B3B87E /* Reaching_Grandmaster_FlashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC2586F1A05466800B3B87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC258531A05466700B3B87E /* Reaching Grandmaster Flash */;
+			targetProxy = DEC2586E1A05466800B3B87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC258611A05466700B3B87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC258621A05466700B3B87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC258661A05466700B3B87E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC258671A05466700B3B87E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC258751A05466800B3B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEC258761A05466800B3B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC258781A05466800B3B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Reaching",
+					Grandmaster,
+					Flash,
+				);
+				INFOPLIST_FILE = "Reaching Grandmaster Flash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEC258791A05466800B3B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Reaching",
+					Grandmaster,
+					Flash,
+				);
+				INFOPLIST_FILE = "Reaching Grandmaster Flash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEC2587B1A05466800B3B87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Reaching Grandmaster FlashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reaching Grandmaster Flash.app/Reaching Grandmaster Flash";
+			};
+			name = Debug;
+		};
+		DEC2587C1A05466800B3B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Reaching Grandmaster FlashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reaching Grandmaster Flash.app/Reaching Grandmaster Flash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC2584F1A05466700B3B87E /* Build configuration list for PBXProject "Reaching Grandmaster Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC258751A05466800B3B87E /* Debug */,
+				DEC258761A05466800B3B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC258771A05466800B3B87E /* Build configuration list for PBXNativeTarget "Reaching Grandmaster Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC258781A05466800B3B87E /* Debug */,
+				DEC258791A05466800B3B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEC2587A1A05466800B3B87E /* Build configuration list for PBXNativeTarget "Reaching Grandmaster FlashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC2587B1A05466800B3B87E /* Debug */,
+				DEC2587C1A05466800B3B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC2584C1A05466700B3B87E /* Project object */;
+}
